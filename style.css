@@ -1,0 +1,58 @@
+body{
+    margin:auto;
+    font-family: 'Poppins', sans-serif;
+    justify-items: center;
+}
+.counter-center{
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    
+}
+#counter-heading{
+    font-size: 55px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#counter-number{
+    color: black;
+    font-size: 85px;
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 0px;
+
+}
+.flex-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    color: black;
+    margin:10px 10px 10px 10px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    cursor: pointer;
+}
+.button1{
+    color: red;
+    border: 2px solid red;
+}
+.button1:hover{
+    background-color: red;
+    color: white;
+}
+.button3{
+    color: green;
+    border: 2px solid green;
+}
+.button3:hover{
+    background-color: green;
+    color: white;
+}
+.button2:hover{
+    background-color: black;
+    color: white;
+}
